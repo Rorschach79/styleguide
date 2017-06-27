@@ -38,7 +38,7 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('css'))
     // .pipe(rename({suffix: '.min'}))
     // .pipe(minifycss())
-    .pipe(gulp.dest('css'))
+    // .pipe(gulp.dest('css'))
     /* Reload the browser CSS after every change */
     .pipe(reload({stream:true}));
 });

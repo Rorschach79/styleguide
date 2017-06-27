@@ -368,14 +368,19 @@ td,
 th {
   padding: 0; }
 
-/* Top level description of the feature
- 
-A description.
- 
-Markup: <some markup with a specific {$modifier} like class or a pseudo class >
- 
-.class      - description of the class state
-:pseudo     - description of the pseudo state
- 
-Styleguide X (digit number to increment eg chapter)
+/*
+Botones
+
+Your standard button suitable for clicking.
+
+:hover   - Highlights when hovering.
+.shiny   - Do not press this big, shiny, red button.
+
+Markup: ../../components/buttons.html
+
+Styleguide Componentes.1
 */
+.button {
+  background-color: lime; }
+  .button.shiny {
+    opacity: .7; }
